@@ -20,7 +20,10 @@ uploaded_file = st.file_uploader("Upload a '.pkl' file that is a list of lists o
 if uploaded_file is not None and uploaded_file.name.endswith(".pkl"):
     weights_file = pkl.load(uploaded_file)
     st.write(f"File read: {uploaded_file.name}")
+    st.json(weights_file)
 else:
     st.write(f"No file read.")
+    weights_file = None
 
-    
+
+

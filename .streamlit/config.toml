@@ -1,0 +1,8 @@
+[server]
+maxUploadSize = 800
+
+[theme]
+base="dark"
+primaryColor="#4b58ff"
+
+

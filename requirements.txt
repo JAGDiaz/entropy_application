@@ -1,0 +1,5 @@
+dill==0.3.5.1
+KDEpy==1.1.0
+matplotlib==3.4.1
+numpy==1.19.5
+streamlit==1.12.2
